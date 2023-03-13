@@ -13,7 +13,7 @@
     "update-deps": "taze -w && pnpm i",
     "build": "tsc",
     "type": "tsc --noEmit",
-    "start": "node dist/app.js"
+    "start": "node dist/src/app.js"
   },
   "dependencies": {
     "h3": "^1.6.0"
