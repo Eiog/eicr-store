@@ -2,7 +2,7 @@ import { createServer } from 'node:http'
 import { createApp, createRouter, eventHandler, toNodeListener } from 'h3'
 import store from '../store.json'
 const app = createApp()
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 3790
 const router = createRouter()
 router.get(
   '/',
